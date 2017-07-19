@@ -1,2 +1,2 @@
 Application provides a speed dial view with possibility to remove tails.
-State is saved in browser's local storage.
+State saves in browser's local storage and is loaded from local storage if already exists there.
