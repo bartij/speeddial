@@ -12,9 +12,9 @@ class Tile extends Component {
                     <a href={this.props.link}>
                         <img className="tile-img" src={this.props.image} alt={this.props.text} />
                     </a>
-                    <img className="remove-tile" src="can.png"onClick={() => this.props.handleRemove(this.props.id)} alt="remove" />
                     <div className="text">
                         <a href={this.props.link}>{this.props.text}</a>
+                        <img className="remove-tile" src="can.png"onClick={() => this.props.handleRemove(this.props.id)} alt="remove" />
                     </div>
                 </div>
             </div>

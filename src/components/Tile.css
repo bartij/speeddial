@@ -29,7 +29,7 @@ div.tile img:hover {
 }
 
 div.text {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -46,7 +46,7 @@ div.text {
 @media only screen and (max-width: 2000px) {
     .responsive {
         width: 24.99999%;
-        margin: 6px 0;
+        margin: 10px 0;
     }
 }
 
@@ -70,10 +70,11 @@ div.text {
 }
 
 .remove-tile {
+    height: 18px;
+    width: auto;
     opacity: 0.8;
     float: right;
     position: absolute;
-    bottom: 8%;
     right: 0;
 }
 

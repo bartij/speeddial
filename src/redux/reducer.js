@@ -1,6 +1,6 @@
 import {actions as actionTypes} from './actions';
 
-let initialState = {
+const initialState = {
     tilesData: [
         {image: '1.jpg', text: 'Tile1', link: 'http://google.pl'},
         {image: '2.jpeg', text: 'Tile2', link: 'http://google.pl'},
@@ -9,12 +9,7 @@ let initialState = {
         {image: '5.jpeg', text: 'Tile5', link: 'http://google.pl'},
         {image: '6.jpeg', text: 'Tile6', link: 'http://google.pl'},
         {image: '7.jpeg', text: 'Tile7', link: 'http://google.pl'},
-        {image: '8.jpeg', text: 'Tile8', link: 'http://google.pl'},
-        {image: '9.jpg', text: 'Tile9', link: 'http://google.pl'},
-        {image: '10.jpeg', text: 'Tile10', link: 'http://google.pl'},
-        {image: '10.jpeg', text: 'Tile10', link: 'http://google.pl'},
-        {image: '10.jpeg', text: 'Tile10', link: 'http://google.pl'},
-        {image: '10.jpeg', text: 'Tile10', link: 'http://google.pl'}
+        {image: '8.jpeg', text: 'Tile8', link: 'http://google.pl'}
     ]
 };
 
