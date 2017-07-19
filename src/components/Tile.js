@@ -8,17 +8,15 @@ class Tile extends Component {
     render() {
         return (
             <div className="responsive">
-                <a href={this.props.link}>
-                    <div className="tile">
-                        <img className="tile-img" src={this.props.image} alt={this.props.text}/>
-                        <div className="text">
-                            {this.props.text}
-                            <span className="remove-tile"
-                                  onClick={() => this.props.handleRemove(this.props.id)}>x
-                            </span>
-                        </div>
+                <div className="tile">
+                    <a href={this.props.link}>
+                        <img className="tile-img" src={this.props.image} alt={this.props.text} />
+                    </a>
+                    <img className="remove-tile" src="can.png"onClick={() => this.props.handleRemove(this.props.id)} alt="remove" />
+                    <div className="text">
+                        <a href={this.props.link}>{this.props.text}</a>
                     </div>
-                </a>
+                </div>
             </div>
         );
     }

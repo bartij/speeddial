@@ -11,6 +11,9 @@ let initialState = {
         {image: '7.jpeg', text: 'Tile7', link: 'http://google.pl'},
         {image: '8.jpeg', text: 'Tile8', link: 'http://google.pl'},
         {image: '9.jpg', text: 'Tile9', link: 'http://google.pl'},
+        {image: '10.jpeg', text: 'Tile10', link: 'http://google.pl'},
+        {image: '10.jpeg', text: 'Tile10', link: 'http://google.pl'},
+        {image: '10.jpeg', text: 'Tile10', link: 'http://google.pl'},
         {image: '10.jpeg', text: 'Tile10', link: 'http://google.pl'}
     ]
 };
