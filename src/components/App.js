@@ -5,8 +5,6 @@ import './App.css';
 
 class App extends Component {
     renderTiles() {
-        console.log('app storage', localStorage.tilesData);
-        console.log('this.props.tilesData', this.props.tilesData);
         return this.props.tilesData.map((tileData, index) =>
             <Tile key={index} id={index} image={tileData.image} text={tileData.text} link={tileData.link}/>
         );
