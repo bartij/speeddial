@@ -3,6 +3,6 @@ State saves in browser's local storage and is loaded from local storage if alrea
 <br>Run application by:
 + yarn
 + yarn start
-or
+<br>or
 + npm i
 + npm start
